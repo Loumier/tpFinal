@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:tpfinal"
+             x:Class="tpfinal.MainPage">
+
+    <StackLayout>
+        <Label Text="Nome" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry Text="Nome"
+               x:Name="nameInput"
+               Keyboard="Text"></Entry>
+
+
+        <Label Text="Autor" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry Text="Autor"
+               x:Name="autorInput"
+               Keyboard="Text"></Entry>
+
+
+        <Label Text="Email" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry Text="Email"
+               x:Name="emailINput"
+               Keyboard="Email"></Entry>
+
+
+        <Label Text="ISBN" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry Text="isbnInput"
+               x:Name="isbnInput"
+               Keyboard="Numeric"></Entry>
+        <Button></Button>
+        
+
+        <Label Text="Feito por Guilherme Borges Cunha"></Label>
+    </StackLayout>
+
+</ContentPage>
