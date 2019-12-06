@@ -4,40 +4,18 @@
              xmlns:local="clr-namespace:tpfinal"
              x:Class="tpfinal.MainPage">
 
-    <StackLayout>
-        <Label Text="Nome" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Entry Text="Nome"
-               x:Name="nameInput"
-               Keyboard="Text"></Entry>
-
-
-        <Label Text="Autor" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Entry Text="Autor"
-               x:Name="autorInput"
-               Keyboard="Text"></Entry>
-
-
-        <Label Text="Email" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Entry Text="Email"
-               x:Name="emailINput"
-               Keyboard="Email"></Entry>
-
-
-        <Label Text="ISBN" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Entry Text="isbnInput"
-               x:Name="isbnInput"
-               Keyboard="Numeric"></Entry>
-        <Button></Button>
-        
-
+    <StackLayout>        
+      <Label Text = "TP Final"></Label>
+      <Button Text="Adicionar livro"
+              x:Name="addBook"
+              Clicked="addBookButton"></Button>
+      <Button Text="Listar livros"
+              x:Name="listBooks"
+              Clicked="listBooksButton"></Button>
+      <Button Text="Localização"
+              x:Name="location"
+              Clicked="locationButton"></Button>
+      
         <Label Text="Feito por Guilherme Borges Cunha"></Label>
     </StackLayout>
 

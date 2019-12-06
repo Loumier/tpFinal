@@ -15,16 +15,19 @@ namespace tpfinal.View.Book
 		public ListBook ()
 		{
             //Model.Book bookUnit = new Model.Book();
-            List<Model.Book> bookList = new List<Model.Book>();
+            //List<Model.Book> bookList = new List<Model.Book>();
+            List<Model.getConnection> bookList;
 
 			InitializeComponent ();
 
-            void listBooks()
-            {
-
-            }
-
-
 		}
+
+        async void deleteBookButton(int id, string bookName)
+        {
+            await DisplayAlert("Excluir", "Deseja excluir o livro" + bookName + "?", "Sim", "Não");
+            //Implementar interação com o popup para confirmar a exclusão
+
+            string sql = "delete from books where id like " + id;
+        }
 	}
 }

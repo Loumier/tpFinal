@@ -5,7 +5,7 @@ using System.Text;
 
 namespace tpfinal.Data
 {
-    interface ISQLite
+    public interface ISQLite
     {
         SQLiteConnection getConnection();
     }

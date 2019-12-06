@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tpfinal.View.Book.addBook">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nome" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Entry Text="Nome"
+               x:Name="nameInput"
+               Keyboard="Text"></Entry>
+
+
+            <Label Text="" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Entry Text="Autor"
+               x:Name="autorInput"
+               Keyboard="Text"></Entry>
+
+
+            <Label Text="" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Entry Text=""
+               x:Name="emailINput"
+               Keyboard="Email"></Entry>
+
+
+            <Label Text="ISBN" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <Entry Text=""
+               x:Name="isbnInput"
+               Keyboard="Numeric"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
