@@ -942,26 +942,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\loumi\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\aluno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loumi\\source\\repos\\tpfinal\\tpfinal\\tpfinal.Android\\tpfinal.Android.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\tpFinal\\tpfinal\\tpfinal.Android\\tpfinal.Android.csproj",
       "projectName": "tpfinal.Android",
-      "projectPath": "C:\\Users\\loumi\\source\\repos\\tpfinal\\tpfinal\\tpfinal.Android\\tpfinal.Android.csproj",
-      "packagesPath": "C:\\Users\\loumi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loumi\\source\\repos\\tpfinal\\tpfinal\\tpfinal.Android\\obj\\",
+      "projectPath": "C:\\Users\\aluno\\tpFinal\\tpfinal\\tpfinal.Android\\tpfinal.Android.csproj",
+      "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aluno\\tpFinal\\tpfinal\\tpfinal.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\loumi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid80"
